@@ -16,3 +16,8 @@ interface B{
 	//입력 있고, 리턴 있다
 	int methodB(String a);
 }
+
+interface C{
+	//입력 있고, 리턴 없다.
+	void methodC(int a);
+}
