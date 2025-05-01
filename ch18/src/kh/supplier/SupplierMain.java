@@ -12,10 +12,9 @@ public class SupplierMain {
 				System.out.printf("이름입력 : ");
 				Scanner scan = new Scanner(System.in);
 				String name = scan.nextLine();
-				return String.format("%s님 질문 멋쟁이", name);
+				return String.format("%s님은 질문 멋쟁이", name);
 		};
 		String value = sup.get();
-		
 		System.out.println(value);
 		
 		
