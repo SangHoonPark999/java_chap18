@@ -20,6 +20,11 @@ public class InstanceLambdaMain {
 		
 		System.out.println("==========");
 		
+		ATest atest = (b, k)-> b.bcd(k);
+		ATest atest2 = BObject2::bcd;
+		
+		atest.abc(new BObject2(), 1000);
+		atest2.abc(new BObject2(), 20000);
 		
 		System.out.println("The end");
 
